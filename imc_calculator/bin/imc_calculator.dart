@@ -1,5 +1,5 @@
-import 'package:imc_calculator/imc_calculator.dart' as imc_calculator;
+import 'package:imc_calculator/app/app.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${imc_calculator.calculate()}!');
+  calculateImcApp();
 }
